@@ -34,32 +34,13 @@ An end-to-end machine learning and full-stack web application designed to monito
 * **Pandas & NumPy**: Data cleaning, wrangling, and exploratory data analysis over the 1,000+ student dataset.
 
 ---
-
-## 📂 Project Architecture
-
-```text
-ai-student-stress-prediction/
-│
-├── backend/
-│   ├── app/
-│   │   ├── api/              # FastAPI routers (auth, predict, recommendations)
-│   │   ├── core/             # JWT security, configuration, database settings
-│   │   ├── models/           # SQLAlchemy database models & Pydantic schemas
-│   │   └── ml/               # Trained Logistic Regression model & inference scripts
-│   ├── data/                 # Student dataset (1000+ records)
-│   ├── requirements.txt      # Python backend dependencies
-│   └── main.py               # FastAPI application entry point
-│
-├── frontend/
-│   ├── app.py                # Streamlit user interface entry point
-│   ├── auth.py               # Authentication & session state management
-│   ├── components/           # Reusable UI widgets & charts
-│   └── requirements.txt      # Streamlit frontend dependencies
-│
-└── README.md
-```
+---
+### Database
+* **MongoDb**: Saving Singin login recored plus user history for model prediction and anwer
 
 ---
+---
+
 
 ## 📊 Dataset Overview
 
