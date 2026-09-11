@@ -1,4 +1,4 @@
- AI Student Stress Prediction & Medical Recommendation System
+## AI Student Stress Prediction & Medical Recommendation System
 
 An end-to-end machine learning and full-stack web application designed to monitor, predict, and mitigate stress levels among students. The system collects comprehensive behavioral, academic, and psychological survey data from over 1,000 students, classifies their stress state into distinct categories using a trained Logistic Regression model, and delivers personalized, actionable medical and lifestyle recommendations.
 
